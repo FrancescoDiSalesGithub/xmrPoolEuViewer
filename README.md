@@ -20,7 +20,9 @@ Where wallet address is the address of your wallet. Example:
 # Polling
 
 If you want to check the status of your wallet constantly, you can use the polling script.
-First, make the polling.sh script executable: `chmod +x polling.sh`.
+First, make the polling.sh script executable: 
+`chmod +x polling.sh`
+
 Then as for running the script you have to pass two arguments:
 * wallet address
 * timeout (in seconds)
