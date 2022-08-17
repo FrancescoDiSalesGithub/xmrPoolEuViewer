@@ -17,7 +17,7 @@ class xmrpool:
     def get_list_workers(self):
         print("workers: ")
         for value in self.worker:
-            print("worker id: " + value['workerId']+ " hashes: " + value['hashes'] + " last share: " + value['lastShare'] + " expired: "+value['expired'])
+            print("worker id: " + value['workerId']+ " hashrate: " + value['hashrate']  + " hashes: " + value['hashes'] + " last share: " + value['lastShare'] + " expired: "+value['expired'])
 
     def get_list_payments(self):
         print("payments: ")
