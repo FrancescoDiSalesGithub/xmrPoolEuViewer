@@ -10,26 +10,10 @@ if __name__ == '__main__':
 
     xmrpoolobj = xmrpool.xmrpool(data['stats'],data['perWorkerStats'],data['payments'])
 
+
     balance = xmrpoolobj.get_balance()
     payments = xmrpoolobj.get_payments()
 
     print("balance: "+balance)
-    print("payments: ")
-
-    for pays in payments:
-        print(pays)
-
+    xmrpoolobj.get_list_payments()
     xmrpoolobj.get_list_workers()
-
-
-
-
-
-
-
-
-
-
-
-
-
