@@ -1,13 +1,13 @@
 # xmrPoolEuViewer
 terminal console viewer for xmrpool.eu worker status
 
-#Installation
+# Installation
 
 Install the requirements by running:
 
 `pip3 install -r requirements.txt`
 
-#How to use xmrPollEuViewer
+# How to use xmrPollEuViewer
 
 If you want to check the status of your wallet on xmrpool.eu run the following command:
 
@@ -17,7 +17,7 @@ Where wallet address is the address of your wallet. Example:
 
 `python3 main.py asdkkgjsi43902009530493042390893043143`
 
-#Polling
+# Polling
 
 If you want to check the status of your wallet constantly, you can use the polling script.
 First, make the polling.sh script executable: `chmod +x polling.sh`.
